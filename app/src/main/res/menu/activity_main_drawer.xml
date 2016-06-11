@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_receive"
+            android:icon="@drawable/ic_menu_receive"
+            android:title="บันทึกรายรับ" />
+        <item
+            android:id="@+id/nav_pay"
+            android:icon="@drawable/ic_menu_pay"
+            android:title="บันทึกรายจ่าย" />
+        <item
+            android:id="@+id/nav_group"
+            android:icon="@drawable/ic_menu_group"
+            android:title="กำหนดหมวดหมู่" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_menu_report"
+            android:title="รายงาน" />
+    </group>
+
+    <item android:title="ตั้งค่า">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_menu_setting"
+                android:title="แจ้งเตือน" />
+            <item
+                android:id="@+id/nav_backup"
+                android:icon="@drawable/ic_menu_backup"
+                android:title="สำรองข้อมูล" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="ออก" />
+        </menu>
+    </item>
+
+</menu>

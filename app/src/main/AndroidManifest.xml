@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.i3enz.moneymanagementv1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/money_splash3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StartActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".ReceiveActivity"></activity>
+        <activity android:name=".PayActivity"></activity>
+        <activity android:name=".CategoriesActivity"></activity>
+        <activity android:name=".ReportMainActivity"></activity>
+        <activity android:name=".ReportActivity"></activity>
+        <activity android:name=".ReportPieActivity"></activity>
+        <activity android:name=".ReportLineActivity"></activity>
+        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".BackupActivity"></activity>
+        <activity android:name=".TabReceiveActivity"></activity>
+        <activity android:name=".TabPayActivity"></activity>
+        <activity android:name=".Screenlist"></activity>
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+</manifest>

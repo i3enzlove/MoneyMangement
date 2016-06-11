@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        android:layout_marginBottom="50dp"
+        android:background="#9dd8e6">
+        <ListView android:id="@+id/ListView1"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:dividerHeight="4dp"
+            android:divider="#e47da4"
+            android:background="#e7c2d0"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true">
+        </ListView>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เพิ่มหมวดหมู่รายจ่าย"
+        android:id="@+id/buttonAddType1"
+        android:onClick="clickAddType2"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/ListView1"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+
+</LinearLayout>

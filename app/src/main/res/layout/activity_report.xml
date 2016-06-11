@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9dd8e6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1a85ab"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="รายงานสถิติ"
+        android:textAlignment="center"
+        android:textColor="#fffefe"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ยอดค่าใช้จ่าย"
+        android:id="@+id/buttonShowSum"
+        android:layout_marginTop="20dp"
+        android:onClick="clickShowSum"
+        android:layout_gravity="center_horizontal" />
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:background="#FF000000">
+            <ListView android:id="@+id/ListView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="6dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:dividerHeight="6dp"
+                android:divider="#000000"
+                android:background="#2fa7ec">
+            </ListView>
+        </LinearLayout>
+</LinearLayout>
